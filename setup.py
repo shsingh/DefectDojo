@@ -67,7 +67,7 @@ setup(
         'django-environ==0.4.5',
     ],
 
-    extras_require={'mysql': ['mysqlclient==1.3.12']},
+    extras_require={'mysql': ['mysqlclient==2.0.3']},
 
     dependency_links=[
         "https://github.com/grendel513/python-pdfkit/tarball/master#egg=pdfkit-0.5.0"
